@@ -1,0 +1,137 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body{
+  background-color: blue;
+}
+.formCont{
+  background-color: white;
+  padding: 15px;
+  width: 100%;
+  padding-bottom: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+form{
+  padding: 10px;
+
+}
+.disflex{
+  display: flex;
+}
+.wrap{
+
+}
+.contInfo{
+  margin: 10px 4px 18px 4px;
+}
+.iconCont{
+  display: inline-block;
+  width: 8%;
+}
+.iconCont label{
+
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.iconCont label i{
+  font-size: 20px;
+}
+.inputCont{
+  width: 100%;
+  justify-content: space-between;
+
+}
+
+.inputInfo{
+  padding: 10px;
+  width: 100%;
+}
+.nameInput{
+  margin-right: 7px;
+}
+
+.buttonCont button{
+  padding: 10px;
+  width: 100%;
+  margin: 3px;
+  background-color: blue;
+  border: none;
+  color: white;
+  font-weight: bold;
+}
+.buttonCont button:hover{
+  background-color: rgb(24, 24, 126);
+}
+.listCont{
+  padding: 15px;
+}
+ul{
+  list-style: none;
+}
+ul li{
+  padding: 10px;
+}
+.userCont{
+  background-color: white;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+.userCont div{
+  margin: 8px 0 8px 5px;
+}
+.buttonUserCont{
+  padding: 20px;
+  justify-content: right;
+  width: 100%;
+}
+.buttonUserCont button{
+  width: 60px;
+  margin: 3px;
+  border: none;
+  font-size: 100%;
+  background: none;
+}
+.buttonUserCont button i:hover{
+  color: red;
+}
+@media(min-width:580px){
+  form{
+    max-width: 600px;
+    margin: auto;
+  }
+  .userCont{
+    max-width: 600px;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+}
+@media(min-width:992px){
+  .App{
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .formCont{
+    max-width: 40%;
+    height: 100vh;
+    border-radius: 0;
+  }
+  .listCont{
+    width: 100%;
+
+    height: 100vh;
+    overflow-y: scroll;
+    overflow-y: auto;
+  }
+
+  .userCont{
+    margin: auto;
+    margin-bottom: 50px;
+  }
+}
